@@ -9,7 +9,7 @@ RM=rm -f
 TARGET =prog
 
 $(TARGET): $(OBJS)
-	  $(CCLINK) -o $(TARGET) $(OBJS) $(LIBS)
+	  $(CCLINK) -o $(TARGET) $(OBJS) 
 
 #Dependencies
 
@@ -24,4 +24,4 @@ file4.o: file4.c  file4.h file2.h
 #Clean
 
 clean:
-	  $(RM) prog *.o *.exe *~ "#"* core
+	  $(RM) prog *.o *.exe 
